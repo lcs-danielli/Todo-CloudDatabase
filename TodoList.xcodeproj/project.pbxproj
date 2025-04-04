@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652396042DA033E7007596DE /* AppEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652396032DA033E0007596DE /* AppEntryView.swift */; };
+		652396062DA03405007596DE /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652396052DA033FC007596DE /* AuthView.swift */; };
 		65C07E3C2D9EBAA3004D5DF4 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 65C07E3B2D9EBAA3004D5DF4 /* Supabase */; };
 		65C07E3E2D9EBCC1004D5DF4 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C07E3D2D9EBCB8004D5DF4 /* Supabase.swift */; };
 		65C617182D9D90E7003A5562 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C617172D9D90E5003A5562 /* TodoListViewModel.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652396032DA033E0007596DE /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
+		652396052DA033FC007596DE /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		65C07E3D2D9EBCB8004D5DF4 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		65C617172D9D90E5003A5562 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		814A08FB2BC41BC500921E4F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 			children = (
 				815D9D7E2BC413800050957E /* LandingView.swift */,
 				814A08FB2BC41BC500921E4F /* ItemView.swift */,
+				652396032DA033E0007596DE /* AppEntryView.swift */,
+				652396052DA033FC007596DE /* AuthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,7 +196,9 @@
 				65C07E3E2D9EBCC1004D5DF4 /* Supabase.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
+				652396042DA033E7007596DE /* AppEntryView.swift in Sources */,
 				815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */,
+				652396062DA03405007596DE /* AuthView.swift in Sources */,
 				65C617182D9D90E7003A5562 /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
